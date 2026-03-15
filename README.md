@@ -19,7 +19,7 @@ Designed for researchers and engineers working on GNSS signal integrity, this pa
 
 - **Interference Generation / 干扰信号生成**:
   - Single-tone interference / 单音干扰
-  - Narrowband interference with configurable bandwidth and center frequency / 可配置带宽与中心频率的窄带干扰
+  - Narrowband interference / 窄带干扰
   - Linear Chirp interference / 线性扫频干扰
 
 - **Mitigation Algorithms / 抗干扰算法**:
