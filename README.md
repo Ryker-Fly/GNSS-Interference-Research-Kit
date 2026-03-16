@@ -9,7 +9,7 @@ A Python toolkit for simulating and mitigating GNSS (Global Navigation Satellite
 
 Designed for researchers and engineers working on GNSS signal integrity, this package provides modular, well-documented components to accelerate interference analysis and countermeasure development.
 
-一个用于生成与抑制 GNSS（全球导航卫星系统）干扰的 Python 工具包，支持单音干扰、窄带干扰生成，以及 FDPB（频域脉冲消隐）和 IIR 陷波滤波等先进抗干扰算法。
+一个用于生成与抑制 GNSS（全球导航卫星系统）干扰的 Python 工具包，支持单音干扰、窄带干扰、扫频干扰等干扰生成，以及 FDPB（频域脉冲消隐）和 IIR 陷波滤波等先进抗干扰算法。
 
 本工具包面向从事 GNSS 信号完整性研究的科研人员与工程师，提供模块化、文档完善的组件，助力干扰分析与抗干扰技术的快速开发。
 
@@ -19,7 +19,8 @@ Designed for researchers and engineers working on GNSS signal integrity, this pa
 
 - **Interference Generation / 干扰信号生成**:
   - Single-tone interference / 单音干扰
-  - Narrowband interference with configurable bandwidth and center frequency / 可配置带宽与中心频率的窄带干扰
+  - Narrowband interference / 窄带干扰
+  - Linear Chirp interference / 线性扫频干扰
 
 - **Mitigation Algorithms / 抗干扰算法**:
   - FDPB (Frequency Domain Pulse Blanking) / 频域脉冲消隐（FDPB）
@@ -83,6 +84,7 @@ GNSS-Interference-Research-Kit/
 │   ├── demo.py               # Minimal working example
 │   ├── 01_single_tone_interference.ipynb
 │   ├── 02_narrowband_interference.ipynb
+│   ├── 03_linear_chirp_interference.ipynb
 │   ├── 11_fdpb_mitigation_demo.ipynb
 │   └── 12_iir_notch_mitigation_demo.ipynb
 ├── requirements.txt          # Exact dependency versions
